@@ -27,7 +27,7 @@
             <hr />
           </nav>
           <main>
-          <section>
+          <div>
             <p>
               Lorem ipsum dolor sit amet,
               <a href="">test link</a>
@@ -40,22 +40,71 @@
               Water is H<sub>2</sub>O.
               Nam sit amet sem. Aliquam libero nisi, imperdiet at, tincidunt nec, gravida vehicula, nisl.
               <cite>The New York Times</cite>
-              (That&#39;s a citation).
+              (That&#8217;s a citation).
               <u>Underline.</u>
               Maecenas ornare tortor. Donec sed tellus eget sapien fringilla nonummy. Mauris a ante. Suspendisse quam sem, consequat at, commodo vitae, feugiat in, nunc. Morbi imperdiet augue quis tellus.
             </p>
             <p>
               Watch out for the abbreviations!
-              <del>Hyper Text Markup Language</del> <q>HTML</q>
+              <abbr title="Hyper Text Markup Language">HTML</abbr>
               and
-              Cascading Style Sheets CSS
+              <abbr title="Cascading Style Sheets">CSS</abbr>
               are our tools. Mauris a ante. Suspendisse quam sem, consequat at, commodo vitae, feugiat in, nunc. Morbi imperdiet augue quis tellus. Praesent mattis, massa quis luctus fermentum, turpis mi volutpat justo, eu volutpat enim diam eget metus. To copy a file type
-              <code>COPY</code>
+              <samp>COPY</samp>
               <i>filename</i>.
               <del>Dinner`s at 5:00.</del>
-              <ins>Let&#39;s make that 7.</ins>
+              <ins>Let&#8217;s make that 7.</ins>
               This <del>text</del> has been struck.
               </p>
+              <hr />
+            </div>
+            <section id="headers">
+              <p>
+                Pay attention to h1 tag inside section element. Font-size for h1 is the same as font-size for h2,
+                because we have to use only one h1 on the page, and it is commonly used inside header
+              </p>
+              <h2>Header 2</h2>
+              <h3>Header 3</h3>
+              <h4>Header 4</h4>
+              <h5>Header 5</h5>
+              <h6>Header 6</h6>
+              <hr>
+            </section>
+            <section id="text-formats">
+              <header>
+                <h2>Text formats</h2>
+              </header>
+              <article>
+                <header>
+                  <h3>Article Text</h3>
+                </header>
+                <article>
+                  <header>
+                    <h2>Article title</h2>
+                    <h4>Article description</h4>
+                  </header>
+                </article>
+              </article>
+            </section>
+            <section id="text">
+              <h3>Preformatted Text</h3>
+              <pre>
+<b>Text</b>
+  in a <b>pre</b> element
+    is displayed in a fixed-width
+ font, and it preserves
+ both           spaces and
+     line breaks   
+                  </pre>
+                  <h3>This is code</h3>
+                  <pre><code>
+  .wrapper {
+    display: flex;
+    vertical-align: middle;
+    justify-content: center;
+  }  
+  
+              </code></pre>
             </section>
           </main>
         </div>
